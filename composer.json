@@ -16,23 +16,21 @@
         "issues": "https://nystudio107.com/plugins/retour/support"
     },
     "license": "proprietary",
-    "authors": [
-        {
-            "name": "nystudio107",
-            "homepage": "https://nystudio107.com/"
-        }
-    ],
+    "authors": [{
+        "name": "nystudio107",
+        "homepage": "https://nystudio107.com/"
+    }],
     "require-dev": {
         "codeception/codeception": "^3.0",
         "vlucas/phpdotenv": "^3.0"
     },
     "require": {
         "craftcms/cms": "^3.0.0",
-        "league/csv": "^8.2"
+        "league/csv": "^9.6"
     },
     "autoload": {
         "psr-4": {
-          "nystudio107\\retour\\": "src/"
+            "nystudio107\\retour\\": "src/"
         }
     },
     "extra": {
